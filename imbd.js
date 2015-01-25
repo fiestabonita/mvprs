@@ -1,0 +1,1 @@
+var t=$("<textarea id='films'/>"); $("#header").prepend(t); t.text($(".wlb_lite").map(function(){return $(this).attr("data-tconst");}).get().join("\n")); $('#films')[0].select(); t[0].focus();
